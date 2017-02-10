@@ -1,0 +1,29 @@
+branches:
+    only:
+        - master
+git:
+    depth: 1
+
+install: composer install
+
+language: php
+
+matrix:
+
+    allow_failures:
+        - php: nightly
+        - php: hhvm-nightly
+
+    fast_finish: true
+
+    include:
+        - php: 7.1
+        - php: nightly
+        - php: hhvm-nightly
+          sudo: required
+          dist: trusty
+          group: edge
+
+script: phpunit
+
+sudo: false
