@@ -1,0 +1,45 @@
+{
+    "type": "library",
+    "name": "box-project/box3",
+    "description": "Creates, reads, and edits PHP archives.",
+    "keywords": ["PHP", "archive", "phar", "sqon"],
+    "license": [
+        "MIT",
+        "Apache-2.0"
+    ],
+    "support": {
+        "issues": "https://github.com/box-project/box3/issues",
+        "source": "https://github.com/box-project/box3"
+    },
+
+    "authors": [
+        {
+            "name": "Kevin Herrera",
+            "email": "kevin@herrera.io",
+            "homepage": "http://kevin.herrera.io/",
+            "role": "Developer"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Box\\": "src/Box"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Box\\": "tests/Box"
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        }
+    },
+
+    "require": {
+        "php": ">=7.1"
+    }
+}
