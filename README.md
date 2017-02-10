@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/box-project/box3.svg?branch=master)](https://travis-ci.org/box-project/box3)
+
 Box
 ===
 
