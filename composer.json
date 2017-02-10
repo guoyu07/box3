@@ -42,7 +42,8 @@
     "require": {
         "php": ">=7.1",
 
-        "kherge/file-manager": "^2.6"
+        "kherge/file-manager": "^2.6",
+        "symfony/event-dispatcher": "^3.2"
     },
 
     "require-dev": {
